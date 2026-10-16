@@ -1,0 +1,817 @@
+{
+ "collectedAt": "2026-10-19T07:00:00Z",
+ "tenant": "contoso.example",
+ "servicePrincipals": [
+  {
+   "id": "23d6c76f-2ffd-517a-aaed-d6528c711b6a",
+   "appId": "3ff2bcf6-dc9c-5787-a2e2-d05d3a2398da",
+   "displayName": "ServiceNow",
+   "ownedByThisTenant": false,
+   "publisherName": "ServiceNow Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2026-10-28T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2026-10-28T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": {
+    "status": "Active",
+    "lastRunState": "Succeeded",
+    "lastRun": "2026-10-19T06:25:00Z",
+    "errors": 0
+   }
+  },
+  {
+   "id": "789c6414-4b45-5e20-aa98-447a3f4ea535",
+   "appId": "3000c6bd-23d2-5755-9218-c60eebfbdcf8",
+   "displayName": "Salesforce",
+   "ownedByThisTenant": false,
+   "publisherName": "Salesforce Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2026-12-03T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2026-12-03T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "b8d9e5f0-13d1-5e72-9833-af4600bcca65",
+   "appId": "c5c9fa1b-5d8c-5c40-9afd-bc186d1e6805",
+   "displayName": "Workday",
+   "ownedByThisTenant": false,
+   "publisherName": "Workday Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-08-15T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-08-15T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": {
+    "status": "Quarantine",
+    "lastRunState": "Failed",
+    "lastRun": "2026-10-18T01:00:00Z",
+    "errors": 6
+   }
+  },
+  {
+   "id": "f8efb151-c6b8-5682-944a-6ec5d74f6b1d",
+   "appId": "9fb7c2f5-f2eb-538b-86f0-3b7eaf29fd03",
+   "displayName": "Atlassian Cloud",
+   "ownedByThisTenant": false,
+   "publisherName": "Atlassian Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-07-06T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-07-06T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": {
+    "status": "Active",
+    "lastRunState": "Failed",
+    "lastRun": "2026-10-19T06:20:00Z",
+    "errors": 2
+   }
+  },
+  {
+   "id": "22cc2fce-2fe6-5d1a-93e6-fa626326e47b",
+   "appId": "afecca51-9250-5012-846b-92a50d91a23a",
+   "displayName": "Zoom",
+   "ownedByThisTenant": false,
+   "publisherName": "Zoom Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": false,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2028-03-02T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2028-03-02T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "da0cfcfc-b94e-5fde-8ceb-9d3e46f16655",
+   "appId": "fa414ac3-5fdc-590f-96fa-9e330ab71fa4",
+   "displayName": "DocuSign",
+   "ownedByThisTenant": false,
+   "publisherName": "DocuSign Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-10-04T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-10-04T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "e2dd4138-6dc5-5c14-bb1b-14ed50e7ee99",
+   "appId": "e213cf43-155d-5bbf-abcd-5dfc2733b6ba",
+   "displayName": "Expensify",
+   "ownedByThisTenant": false,
+   "publisherName": "Expensify Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-05-17T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-05-17T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-04-02T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "755bcbb3-9cba-5453-99ae-8ffde8f2534f",
+   "appId": "3709cec8-6fd5-5d25-a344-80f5bd69ed05",
+   "displayName": "Slack",
+   "ownedByThisTenant": false,
+   "publisherName": "Slack Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-12-13T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-12-13T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "db783aab-84f3-59b7-abbd-ff1368d22fbd",
+   "appId": "767e3256-5ad3-5625-93c2-7f747f53948b",
+   "displayName": "Box",
+   "ownedByThisTenant": false,
+   "publisherName": "Box Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2026-10-13T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2026-10-13T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-13T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "301a65b1-db98-5320-8069-872f02d020c4",
+   "appId": "cd02e236-579d-5f6b-9c56-daf91504a498",
+   "displayName": "Miro",
+   "ownedByThisTenant": false,
+   "publisherName": "Miro Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "oidc",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [
+    {
+     "scope": "openid profile email",
+     "consentType": "AllPrincipals"
+    }
+   ],
+   "provisioning": null
+  },
+  {
+   "id": "3676c2a9-1942-5205-8fce-3df4d3d8d711",
+   "appId": "6cf1d206-1f61-5c71-a33d-b0af0a10d42a",
+   "displayName": "Figma",
+   "ownedByThisTenant": false,
+   "publisherName": "Figma Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2028-06-10T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2028-06-10T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "d8bfcd6a-b33c-5948-b6c4-024e4a6311cc",
+   "appId": "e1e605c8-4895-5f95-b4e6-7dd556152a47",
+   "displayName": "Adobe Admin Console",
+   "ownedByThisTenant": false,
+   "publisherName": "Adobe Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "saml",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "it-apps@contoso.example"
+   ],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Sign",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-09-14T07:00:00Z"
+    },
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "CN=Microsoft Azure Federated SSO Certificate",
+     "startDateTime": "2024-01-23T07:00:00Z",
+     "endDateTime": "2027-09-14T07:00:00Z"
+    }
+   ],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "69b55572-07ed-5c97-a95b-04b9a2f7018c",
+   "appId": "5b1c5151-aa86-53ba-a51c-0450c6a060ac",
+   "displayName": "Travel Portal (legacy)",
+   "ownedByThisTenant": false,
+   "publisherName": "Old travel agency",
+   "verifiedPublisher": true,
+   "signInMode": "password",
+   "appRoleAssignmentRequired": false,
+   "accountEnabled": true,
+   "owners": [],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 4,
+   "lastSignIn": null,
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "42a18fba-52f3-53ed-a361-01c779167ce9",
+   "appId": "cd1fcfd6-30a4-586d-bf10-9112e8da4c9d",
+   "displayName": "Contoso Intranet",
+   "ownedByThisTenant": true,
+   "publisherName": "Contoso",
+   "verifiedPublisher": false,
+   "signInMode": "oidc",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 2,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "f6d3ef24-f57d-5305-bd28-c6e36fd7ecb7",
+   "appId": "2686fca7-2694-57f4-8a8f-a80082998e27",
+   "displayName": "Contoso HR Portal",
+   "ownedByThisTenant": true,
+   "publisherName": "Contoso",
+   "verifiedPublisher": false,
+   "signInMode": "oidc",
+   "appRoleAssignmentRequired": false,
+   "accountEnabled": true,
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 2,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "ed58760d-aa58-507a-9856-c72986a4d23a",
+   "appId": "a2b6cf46-8061-5afc-88ce-96cdc5160a0d",
+   "displayName": "Payroll Export",
+   "ownedByThisTenant": true,
+   "publisherName": "Contoso",
+   "verifiedPublisher": false,
+   "signInMode": "",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 0,
+   "lastSignIn": "2026-10-19T07:00:00Z",
+   "appPermissions": [
+    "User.Read.All"
+   ],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "4c5b6c41-0859-5e4d-ae19-0064409c8e63",
+   "appId": "bf6cbaf6-94af-52c1-8553-87bb7a54247d",
+   "displayName": "M365 Backup Connector",
+   "ownedByThisTenant": true,
+   "publisherName": "Contoso",
+   "verifiedPublisher": false,
+   "signInMode": "",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 0,
+   "lastSignIn": "2026-10-19T07:00:00Z",
+   "appPermissions": [
+    "Mail.ReadWrite",
+    "Files.ReadWrite.All",
+    "Sites.FullControl.All"
+   ],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "05baf3bc-849f-5646-8935-beacd4df3013",
+   "appId": "f65015f1-fb31-5599-9b9d-25ac7137a1b5",
+   "displayName": "Old Automation",
+   "ownedByThisTenant": true,
+   "publisherName": "Contoso",
+   "verifiedPublisher": false,
+   "signInMode": "",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 0,
+   "lastSignIn": "2026-10-16T07:00:00Z",
+   "appPermissions": [
+    "Directory.ReadWrite.All",
+    "User.Read.All"
+   ],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "139256c8-4863-5c1e-9932-221e92d05a72",
+   "appId": "cd06fff0-4e79-5366-836d-b81aa1ea07fd",
+   "displayName": "Reporting Dashboard",
+   "ownedByThisTenant": true,
+   "publisherName": "Contoso",
+   "verifiedPublisher": false,
+   "signInMode": "",
+   "appRoleAssignmentRequired": true,
+   "accountEnabled": true,
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 0,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [
+    "Reports.Read.All"
+   ],
+   "delegatedGrants": [],
+   "provisioning": null
+  },
+  {
+   "id": "cb61da39-761b-5d89-9e00-fae976e886e0",
+   "appId": "5edfc1da-cf52-5d5c-8f36-757e02511b47",
+   "displayName": "PDF Converter Pro",
+   "ownedByThisTenant": false,
+   "publisherName": "PDFTools Ltd",
+   "verifiedPublisher": false,
+   "signInMode": "",
+   "appRoleAssignmentRequired": false,
+   "accountEnabled": true,
+   "owners": [],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 0,
+   "lastSignIn": "2026-10-17T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [
+    {
+     "scope": "openid offline_access Mail.Read Files.Read.All",
+     "consentType": "AllPrincipals"
+    }
+   ],
+   "provisioning": null
+  },
+  {
+   "id": "26a23280-7896-5d2e-8862-88685ef287c1",
+   "appId": "301b0939-b3bd-56a3-9cf5-fc3254de33d6",
+   "displayName": "MeetingNotes AI",
+   "ownedByThisTenant": false,
+   "publisherName": "MeetingNotes AI Inc.",
+   "verifiedPublisher": true,
+   "signInMode": "",
+   "appRoleAssignmentRequired": false,
+   "accountEnabled": true,
+   "owners": [],
+   "keyCredentials": [],
+   "passwordCredentials": [],
+   "assignedPrincipals": 0,
+   "lastSignIn": "2026-10-18T07:00:00Z",
+   "appPermissions": [],
+   "delegatedGrants": [
+    {
+     "scope": "User.Read Calendars.Read",
+     "consentType": "AllPrincipals"
+    },
+    {
+     "scope": "Notes.Read.All",
+     "consentType": "Principal"
+    }
+   ],
+   "provisioning": null
+  }
+ ],
+ "applications": [
+  {
+   "appId": "cd1fcfd6-30a4-586d-bf10-9112e8da4c9d",
+   "displayName": "Contoso Intranet",
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "signInAudience": "AzureADMyOrg",
+   "passwordCredentials": [
+    {
+     "displayName": "prod",
+     "startDateTime": "2024-11-18T07:00:00Z",
+     "endDateTime": "2026-11-08T07:00:00Z"
+    },
+    {
+     "displayName": "legacy-2019",
+     "startDateTime": "2020-03-24T07:00:00Z",
+     "endDateTime": "2030-03-22T07:00:00Z"
+    }
+   ],
+   "keyCredentials": [],
+   "redirectUris": [
+    "https://intranet.contoso.example/signin-oidc"
+   ]
+  },
+  {
+   "appId": "2686fca7-2694-57f4-8a8f-a80082998e27",
+   "displayName": "Contoso HR Portal",
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "signInAudience": "AzureADMyOrg",
+   "passwordCredentials": [],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "hr-portal-2026",
+     "startDateTime": "2026-04-02T07:00:00Z",
+     "endDateTime": "2027-03-28T07:00:00Z"
+    }
+   ],
+   "redirectUris": [
+    "https://hr.contoso.example/auth",
+    "http://hr-test.contoso.example/auth",
+    "https://localhost:5001/auth"
+   ]
+  },
+  {
+   "appId": "a2b6cf46-8061-5afc-88ce-96cdc5160a0d",
+   "displayName": "Payroll Export",
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "signInAudience": "AzureADMyOrg",
+   "passwordCredentials": [
+    {
+     "displayName": "payroll-2025",
+     "startDateTime": "2025-10-16T07:00:00Z",
+     "endDateTime": "2026-10-16T07:00:00Z"
+    }
+   ],
+   "keyCredentials": [],
+   "redirectUris": []
+  },
+  {
+   "appId": "bf6cbaf6-94af-52c1-8553-87bb7a54247d",
+   "displayName": "M365 Backup Connector",
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "signInAudience": "AzureADMyOrg",
+   "passwordCredentials": [],
+   "keyCredentials": [
+    {
+     "type": "AsymmetricX509Cert",
+     "usage": "Verify",
+     "displayName": "backup-2026",
+     "startDateTime": "2026-07-11T07:00:00Z",
+     "endDateTime": "2027-07-11T07:00:00Z"
+    }
+   ],
+   "redirectUris": []
+  },
+  {
+   "appId": "f65015f1-fb31-5599-9b9d-25ac7137a1b5",
+   "displayName": "Old Automation",
+   "owners": [],
+   "signInAudience": "AzureADMyOrg",
+   "passwordCredentials": [
+    {
+     "displayName": "do-not-delete",
+     "startDateTime": "2024-05-02T07:00:00Z",
+     "endDateTime": "2034-04-30T07:00:00Z"
+    }
+   ],
+   "keyCredentials": [],
+   "redirectUris": []
+  },
+  {
+   "appId": "cd06fff0-4e79-5366-836d-b81aa1ea07fd",
+   "displayName": "Reporting Dashboard",
+   "owners": [
+    "platform-team@contoso.example"
+   ],
+   "signInAudience": "AzureADMyOrg",
+   "passwordCredentials": [
+    {
+     "displayName": "old",
+     "startDateTime": "2025-09-14T07:00:00Z",
+     "endDateTime": "2026-09-14T07:00:00Z"
+    },
+    {
+     "displayName": "current",
+     "startDateTime": "2026-09-14T07:00:00Z",
+     "endDateTime": "2027-09-14T07:00:00Z"
+    }
+   ],
+   "keyCredentials": [],
+   "redirectUris": [
+    "https://*.contoso.example/reports"
+   ]
+  }
+ ],
+ "conditionalAccess": [
+  {
+   "displayName": "CA001 - All users - All apps - Require MFA",
+   "state": "enabled",
+   "includeApplications": [
+    "All"
+   ],
+   "excludeApplications": [
+    "3709cec8-6fd5-5d25-a344-80f5bd69ed05"
+   ],
+   "grantControls": [
+    "mfa"
+   ],
+   "includeUsers": [
+    "All"
+   ]
+  },
+  {
+   "displayName": "CA002 - All users - Block legacy authentication",
+   "state": "enabled",
+   "includeApplications": [
+    "All"
+   ],
+   "excludeApplications": [],
+   "grantControls": [
+    "block"
+   ],
+   "includeUsers": [
+    "All"
+   ]
+  },
+  {
+   "displayName": "CA010 - Admins - Phishing-resistant MFA (report-only)",
+   "state": "enabledForReportingButNotEnforced",
+   "includeApplications": [
+    "All"
+   ],
+   "excludeApplications": [],
+   "grantControls": [
+    "mfa"
+   ],
+   "includeUsers": [
+    "Admins"
+   ]
+  }
+ ]
+}
