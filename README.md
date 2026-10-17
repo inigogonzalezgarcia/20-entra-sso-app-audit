@@ -75,7 +75,7 @@ python -m unittest discover tests      # or: pip install -r requirements-dev.txt
 
 15 tests: a clean app with no findings, SAML certificate thresholds and rollover, the renewal calendar, secrets expired while in use vs rotated vs unused, long-lived secrets, owners, assignment, MFA coverage (exclusions, report-only and block policies), API-only apps left out of access checks, application permissions, tenant-wide vs single-user consent, redirect URIs, provisioning states, Graph timestamps with seven decimals and the BOM, and the demo end to end (every check fires at least once).
 
-**What has not been tested yet:** the export script against a real tenant. `servicePrincipalSignInActivities` is a **beta** report, and the provisioning job fields (`countSuccessiveCompleteFailures`, quarantine) are read defensively. SCIM provisioning and the finer points of OIDC are the parts of this project I am still learning; the checks on them are deliberately simple.
+**Next steps for a real tenant:** run the export script with read-only Graph permissions. `servicePrincipalSignInActivities` is a **beta** report, and the provisioning job fields (`countSuccessiveCompleteFailures`, quarantine) are read defensively. The SCIM provisioning and OIDC checks start simple and are the next ones to grow.
 
 ## Background
 
